@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humor</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="seleccionador">
+        <div class="buscador">
+            <input type="text" id="valor" onkeyup="enter(event)" placeholder="Joke o Gif">
+            <button onclick="buscar()" class="boton">Buscar</button>
+        </div>
+        <div class="queBuscar">
+            <form name="form" id="form" onchange="placehold();">
+            <input type="radio" name="grupo" id="idJoke" value="valorJoke">Jokes
+            <input type="radio" name="grupo" value="valorGif" id="idGif">GIFs
+            </form>            
+        </div>
+    </div>
+    
+    <div class="contenedor" id="contenedor"></div>
+</body>
+<script src="script.js"></script>
+</html>
