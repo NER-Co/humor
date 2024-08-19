@@ -1,5 +1,10 @@
+// script.js valores de Javascript
 
+//Constante vacia
 let valorInput= [];
+//Constante valor opcion Gif, opcion Joke
+const gif = document.getElementById("idGif").value
+const joke = document.getElementById("idJoke").value
 //funcion para que funcione el ENTER luego de colocar el input, usando onkeyup
 function enter(e){
     if(e.keyCode == 13){
@@ -9,6 +14,17 @@ function enter(e){
 //funcion para insertar el valor de input en la variable "valorInput" y luego utilizar su palabra.
 function buscar(){
   
+    if (valorInput = ) {
+        
+    } else if (condition) {
+        
+    } else{
+        
+    }
+    
+
+
+
     valorInput = document.getElementById("valorInput").value;  
    cargarGif();
 };
