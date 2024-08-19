@@ -16,10 +16,10 @@ function buscar(){
 
 
 //funcion para cargar la API de chistes --- Lo más importante es el FETCH 
-const cargarChiste = async ()=> {
+const buscarJoke = async ()=> {
 
     try {
-        const respuesta =  await fetch(`https://api.humorapi.com/jokes/search?api-key=dac36f2fb3e14a548ca4ff7575ea33fc&keywords=${valor}`);
+        const respuesta =  await fetch(`https://api.humorapi.com/jokes/search?api-key=dac36f2fb3e14a548ca4ff7575ea33fc&keywords=${query}`);
 
         if (respuesta.status === 200) {
             
